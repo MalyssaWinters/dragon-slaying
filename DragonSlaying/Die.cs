@@ -16,6 +16,7 @@ namespace DragonSlaying
         /// </summary>
         public Die() : this(6)
         {
+            
         }
 
         /// <summary>
@@ -35,6 +36,7 @@ namespace DragonSlaying
         public int Roll()
         {
             // TODO
+
             return random.Next(1, 21);
         }
     }
