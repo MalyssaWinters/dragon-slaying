@@ -23,11 +23,14 @@ namespace DragonSlaying
             get
             {
                 // TODO
-                throw new NotImplementedException();
+                return HitPoints;
             }
             set
             {
                 // TODO
+                HitPoints = value;
+                if (HitPoints < 0)
+                    HitPoints = 0;
             }
         }
 
