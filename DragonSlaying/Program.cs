@@ -37,6 +37,7 @@ namespace DragonSlaying
             // TODO++: modify Battle to take a List<Dragon> of enemies, and have each of them attack every time through the loop.
             // You may want to have the Hero automatically attack the first enemy in the list that is still alive.
             Die myDie = new Die(20);
+            Die otherDie = new Die();
             Console.WriteLine(MyHero);
 
             Console.WriteLine("VERSUS");
